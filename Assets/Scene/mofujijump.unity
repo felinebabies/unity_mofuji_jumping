@@ -157,7 +157,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_BindingMode: 1
-  m_FollowOffset: {x: 0.16, y: 1.1, z: -15.220013}
+  m_FollowOffset: {x: 3.6639993, y: 0.79200006, z: -12.49302}
   m_XDamping: 1
   m_YDamping: 1
   m_ZDamping: 1
@@ -260,8 +260,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 333906761}
-  m_LocalRotation: {x: -0.14471008, y: -0.64290667, z: -0.12544936, w: 0.74161476}
-  m_LocalPosition: {x: 0.16, y: 1.18, z: -5.25}
+  m_LocalRotation: {x: 0.059016034, y: -0.5882425, z: 0.04310502, w: 0.80537564}
+  m_LocalPosition: {x: 3.698, y: 0.882, z: -2.551}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 206971093}
@@ -846,6 +846,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1021522318}
   - component: {fileID: 1021522317}
+  - component: {fileID: 1021522319}
   m_Layer: 0
   m_Name: mofuji_timeline
   m_TagString: Untagged
@@ -896,6 +897,23 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 24
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &1021522319
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1021522316}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
 --- !u!1001 &1037489396
 Prefab:
   m_ObjectHideFlags: 0
@@ -1043,7 +1061,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 8d2a0eb9da639de4990ac1b8b144e22d, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.5
+      value: 0.31
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 8d2a0eb9da639de4990ac1b8b144e22d, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1080,6 +1098,10 @@ Prefab:
     - target: {fileID: 400002, guid: 8d2a0eb9da639de4990ac1b8b144e22d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 8d2a0eb9da639de4990ac1b8b144e22d, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8d2a0eb9da639de4990ac1b8b144e22d, type: 3}
@@ -1131,7 +1153,7 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1197412422}
-  m_LocalRotation: {x: -0.17239892, y: -0.6693948, z: -0.1639768, w: 0.7037761}
+  m_LocalRotation: {x: 0.045729198, y: 0.74415475, z: -0.05121317, w: 0.66446954}
   m_LocalPosition: {x: -12.07, y: 1.99, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -1245,7 +1267,7 @@ Rigidbody:
   m_Mass: 1
   m_Drag: 0
   m_AngularDrag: 0.05
-  m_UseGravity: 1
+  m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
@@ -1260,7 +1282,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 1, y: 0.65, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!320 &1609457324
 PlayableDirector:
@@ -1636,6 +1658,7 @@ GameObject:
   - component: {fileID: 2008628840}
   - component: {fileID: 2008628839}
   - component: {fileID: 2008628844}
+  - component: {fileID: 2008628845}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -1706,8 +1729,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2008628838}
-  m_LocalRotation: {x: 0.11587231, y: -0.027483039, z: 0.002388071, w: 0.99288094}
-  m_LocalPosition: {x: 0.16, y: 1.18, z: -5.25}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1.01, y: 1.01, z: 1.01}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1743,6 +1766,35 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: Cinemachine.CinemachineBrain+VcamEvent, Assembly-CSharp, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
+--- !u!114 &2008628845
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2008628838}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd70d448b18cfbc46af26466f752332c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  visualizeFocus: 0
+  focalLength: 10
+  focalSize: 0.05
+  aperture: 0.5
+  focalTransform: {fileID: 1609457321}
+  maxBlurSize: 2
+  highResolution: 0
+  blurType: 0
+  blurSampleCount: 2
+  nearBlur: 0
+  foregroundOverlap: 1
+  dofHdrShader: {fileID: 4800000, guid: acd613035ff3e455e8abf23fdc8c8c24, type: 3}
+  dx11BokehShader: {fileID: 4800000, guid: d8e82664aa8686642a424c88ab10164a, type: 3}
+  dx11BokehThreshold: 0.5
+  dx11SpawnHeuristic: 0.0875
+  dx11BokehTexture: {fileID: 2800000, guid: a4cdca73d61814d33ac1587f6c163bca, type: 3}
+  dx11BokehScale: 1.2
+  dx11BokehIntensity: 2.5
 --- !u!1001 &2119550556
 Prefab:
   m_ObjectHideFlags: 0
